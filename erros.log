@@ -1,0 +1,37 @@
+2024-05-17 10:33:24,843 - ERROR - Ocorreu um erro: 
+Traceback (most recent call last):
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 51, in <module>
+    carregar_tarefas_na_janela(janela)
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 45, in carregar_tarefas_na_janela
+    janela[f'checkbox_{i}'].update(value=tarefa['feito'])
+                                         ~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-05-17 10:34:16,210 - ERROR - Ocorreu um erro: 
+Traceback (most recent call last):
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 51, in <module>
+    carregar_tarefas_na_janela(janela)
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 45, in carregar_tarefas_na_janela
+    janela[f'checkbox_{i}'].update(value=tarefa['feito'])
+                                         ~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-05-17 10:40:39,286 - DEBUG - Carregando tarefas do arquivo
+2024-05-17 10:40:39,287 - ERROR - Ocorreu um erro: 
+Traceback (most recent call last):
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 55, in <module>
+    janela = criar_janela_inicial(tarefas)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 36, in criar_janela_inicial
+    [sg.Frame('Tarefas', layout=[[sg.Checkbox('', key=f'checkbox_{i}', default=tarefa['feito']),sg.Input(tarefa['descricao'], key=f'input_{i}')] for i, tarefa in enumerate(tarefas)],
+                                                                               ~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-05-17 10:41:07,422 - DEBUG - Carregando tarefas do arquivo
+2024-05-17 10:44:59,429 - DEBUG - Carregando tarefas do arquivo
+2024-05-17 10:44:59,430 - ERROR - Ocorreu um erro: 
+Traceback (most recent call last):
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 56, in <module>
+    janela = criar_janela_inicial(tarefas)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\rapha\OneDrive\햞ea de Trabalho\Organizador de tarefas\app2.py", line 36, in criar_janela_inicial
+    [sg.Frame('Tarefas', layout=[[sg.Checkbox('', key=f'checkbox_{i}', default=tarefa['feito']),
+                                                                              ~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
